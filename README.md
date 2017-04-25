@@ -22,10 +22,8 @@ ENVIRONMENT SETUP:
 This setup was done with both nginx and logstash running locally.
 <br />
 nginx.conf located in /etc/nginx/
-
 <br />
 logstash.conf located in /etc/logstash/
-
 <br />
 access.log located in /var/log/nginx/
 
@@ -44,6 +42,7 @@ systemctl status nginx
 <br />
 <br />
 Logstash:
+<br />
 /opt/logstash/bin/logstash -f /etc/logstash/logstash.conf
 <br />
 <br />
