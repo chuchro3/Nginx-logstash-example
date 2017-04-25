@@ -37,6 +37,8 @@ Nginx:
 <br />
 sudo systemctl start nginx
 <br />
+sudo ufw allow 'Nginx HTTP'
+<br />
 systemctl status nginx
 
 <br />
