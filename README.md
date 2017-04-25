@@ -7,15 +7,11 @@ Sample Logstash NGINX config log parser
 CONTENTS:
 <br />
 - nginx.conf
-<br />
-Configuration file which defines the log format, and also applies the format to the nginx access.log
-<br />
+<br /> Configuration file which defines the log format, and also applies the format to the nginx access.log
 - logstash.conf
-Configuration file which defines the logstash input file (nginx/access.log), and is set to output to stdout to test this simple setup.
-<br />
+<br /> Configuration file which defines the logstash input file (nginx/access.log), and is set to output to stdout to test this simple setup.
 - access.log
-<br />
-Example log file to take as input for logstash. This logs requests made to the nginx server setup on http://localhost:80
+<br /> Example log file to take as input for logstash. This logs requests made to the nginx server setup on http://localhost:80
 <br />
 <br />
 <br />
